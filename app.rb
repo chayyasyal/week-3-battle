@@ -4,10 +4,6 @@ class Battle < Sinatra::Base
   enable :sessions
 
   get '/' do
-    'Testing infrastructure works'
-  end
-
-  get '/filling-in-names' do
     erb(:index)
   end
 

@@ -1,8 +1,8 @@
 require './app'
 
 feature 'Enter name' do
-  scenario 'Filling-in-names' do
-    visit('/filling-in-names')
+  scenario 'Filling in names' do
+    visit('/')
 
     fill_in :player_1_name, with: 'Olivia'
     fill_in :player_2_name, with: 'Chayya'
