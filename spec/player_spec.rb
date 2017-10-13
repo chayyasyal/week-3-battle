@@ -7,4 +7,10 @@ describe Player do
       expect(chris.name).to eq 'Chris'
     end
   end
+
+  describe '#hit_points' do
+    it 'should return hit points' do
+      expect(chris.hit_points).to eq described_class::DEFAULT_HIT_POINTS
+    end
+  end
 end
